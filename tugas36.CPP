@@ -14,11 +14,11 @@ int pakai, a, b, c, d, biaya;
                 c=0;
                 d=0;
    if (pakai>150)
-   {            b=50; c=50; d=pakai-150;         }
+   {            a=50; b=50; c=50; d=pakai-150;         }
    else if (pakai>100)
-   {            b=50; c=pakai-1000;   }
+   {            a=50; b=50; c=pakai-1000;   }
    else if (pakai>50)
-   {            b=pakai-50;             }
+   {            a=50; b=pakai-50;             }
 
    biaya= ((a*1000)+(b*1500)+(c*2000)+(d*3000));
    cout<<"\n Biaya Pembayaran : "<<biaya<<endl;
